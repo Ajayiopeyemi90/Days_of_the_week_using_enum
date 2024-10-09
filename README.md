@@ -2,7 +2,7 @@
  # Days of the Week Enum in Java
 
 ## Description
-in week four I created a java project that demonstrates the use of an `enum` to represent the days of the week. 
+In week four I created a java project that demonstrates the use of an `enum` to represent the days of the week. 
 The project contains a superclass (`Week`) that lists all the days and a subclass (`Weekend`) that inherits from `Week` and filters out the weekend days (Saturday and Sunday). 
 This example showcases basic Java concepts such as inheritance, `enum`, and object-oriented programming.
 
