@@ -3,12 +3,11 @@ enum DaysOfWeek {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
 }
 
-// Superclass
+// The Superclass
 class Week {
     protected DaysOfWeek[] days;
 
     public Week() {
-        // Initialize with all days of the week
         days = DaysOfWeek.values();
     }
 
@@ -21,14 +20,14 @@ class Week {
     }
 }
 
-// Subclass
+// The Subclass
 class Weekend extends Week {
 
     public Weekend() {
-        super(); // Call the superclass constructor
+        super(); // The supperclass constructor.
     }
 
-    // Method to display only weekend days
+    //The Method that display weekend days only
     public void displayWeekend() {
         System.out.println("\nWeekend Days:");
         for (DaysOfWeek day : days) {
@@ -39,7 +38,7 @@ class Weekend extends Week {
     }
 }
 
-// Main class to test the program
+// Main class for the model.
 public class Main {
     public static void main(String[] args) {
         Week week = new Week();
