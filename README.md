@@ -7,5 +7,6 @@ This is a simple Java project that demonstrates the use of an `enum` to represen
 ## Features
 - Enum `DaysOfWeek` capturing all days of the week.
 - Superclass `Week` that prints all days of the week.
-- Subclass `Weekend` that prints only the weekend days (Saturday and Sunday)
+- Subclass `Weekend` that prints only the weekend days (Saturday and Sunday).
+  
 
